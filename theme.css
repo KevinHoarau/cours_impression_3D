@@ -1,0 +1,73 @@
+/**
+ * @theme khoarau
+ */
+
+@import 'default';
+
+header {
+    width:95%;
+    text-align:center;
+    font-size:0.8em;
+  }
+  section.slide {
+    display: block;
+  }
+
+  strong {
+    color: #19618e;
+  }
+  .small{
+    font-size: 0.8em;
+  }
+
+  section.title {
+    display: flex;
+    text-align:center;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: var(--split);
+    gap: 0.5rem;
+  }
+
+  .column_center {
+    display: flex;
+    align-items: center;
+  }
+
+  .bloc 
+  {
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+
+  .bloc > h3, div
+  {
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  .bloc > hr
+  {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    height:2px;
+  }
+
+  img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .image_caption{
+    text-align:center;
+    font-size: 0.7em;
+    font-style: italic;
+  }

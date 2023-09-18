@@ -44,7 +44,7 @@ Impression du n'adhères pas
 
 # Un mot sur la sécurité
 
-Ne pas laisse une imprante sans surveillance
+Ne pas laisse une impriante sans surveillance
 Toujours surveiller la première couche
 Attention avec la spatule (très coupant)
 Evidement ne pas toucher la buse avec les doigts
@@ -52,7 +52,7 @@ Evidement ne pas toucher la buse avec les doigts
 ---
 <!-- header: Systèmes de données massives -->
 <!-- _class: title -->
-# ***Paramètrage de l'impression dans un Slicer***
+# ***Paramétrage de l'impression dans un Slicer***
 
 ---
 
@@ -66,15 +66,28 @@ Nb top / bottom layer
 NB perimètre
 Jupe
 Ventilation de la piece
-Retractation
+Rétractation
 
 Voir troubleshooting guide
 
 ---
 
+# Comment éviter les supports
+
 ---
 
-# Comment éviter les supports
+# Quand mettre des supports
+
+Overhang
+Pontage
+
+---
+
+# Support
+
+Interface
+Support arborescent 
+Placement manuel
 
 ---
 
@@ -85,4 +98,33 @@ Contraintes mécaniques
 Surface de contact avec le plateau
 
 ---
+
+# Comment reduire les temps d'impression ?
+
+Hauteur de couche
+Infill
+Nb Perimetre
+
+---
+
+# Comment décoller l'impression
+
+
+---
+
+# Post-processing
+
+Poncage
+Epoxy
+Pistolet à air chaud
+Ebavureur
+
+
+---
+
+# Comment faire adherer les pieces au plateau
+
+---
+
+# Ajouter une pause / Changer de filament en cours d'impression
 

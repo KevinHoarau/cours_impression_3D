@@ -274,8 +274,8 @@ Kévin Hoarau - Septembre 2023
 
 ## Carte mère (*controller board*)
 
-* Elle chargé de piloter l'ensemble des composants de l'imprimante
-* Elle interprète les instructions envoyé par un ordinateur ou contenu dans un fichier
+* Elle est chargée de piloter l'ensemble des composants de l'imprimante
+* Elle interprète les instructions envoyées par un ordinateur ou contenu dans un fichier
 * Parfois il est possible de changer les contrôleurs des moteurs pas à pas
 
 
@@ -316,19 +316,163 @@ Kévin Hoarau - Septembre 2023
 
 ---
 
-# Autres
+# Autres imprimantes FDM
 
-Bed leveling : manuel ou assisté
-Impression multi-materiaux/multi-color
+<div class="columns" style="--split: 1.8fr 1fr ">
+<div>
+
+## Imprimantes Core XY
+
+* Les imprimantes core XY ont une mécanique un peu plus complexe ou la tête d'impression se déplace en X et Y et le plateau en Z
+* Cette technologie permet d'atteindre des vitesses d'impression plus élevées et équipe principalement des imprimantes haute-gamme
+
+</div>
+<div>  
+
+<br>
+
+![center h:300](images/cm1/bambulab.jpg)
+<div class="image_caption">Bambu Lab X1-Carbon</div>
+
+</div>
+</div>
 
 ---
 
-# Delta vs core xy etc
+# Autres imprimantes FDM
+
+<div class="columns" style="--split: 2fr 1fr ">
+<div>
+
+## Imprimantes Delta
+
+* La tête d'impression des imprimantes delta est maintenu par trois bras disposés dans une configuration triangulaire.
+* Chaque bras peut être déplacé verticalement afin ainsi d'atteindre n'importe quelles positions.
+* Elles permettent d'atteindre des vitesses d'impression élevées mais offrent un volume d'impression plus réduit
+
+</div>
+<div>  
+
+<br>
+
+![center h:350](images/cm1/v400.webp)
+<div class="image_caption">FLSUN V400</div>
+
+</div>
+</div>
+
+---
+
+# Impression multi-matériaux
+
+<div class="columns" style="--split: 1.5fr 1fr ">
+<div>
+
+On rencontre généralement trois approches pour réaliser des impressions multi-matériaux et/ou multicolore :
+
+* Les imprimantes équipées de plusieurs extrudeurs
+* Les systèmes de changements de matériaux automatiques
+* Découpage et soudage de filament (*e.g.* Mosaic Palette)
+
+</div>
+<div>  
+
+![center h:250](images/cm1/creality-crx.jpg)
+<div class="image_caption" style="padding-bottom:10px;">Creality CR-X</div>
+
+![center w:250](images/cm1/ams.webp)
+<div class="image_caption">Bambulab AMS </br>(Automatic Material System)</div>
+
+
+</div>
+</div>
 
 ---
 
 # Les matériaux
 
+## Le PLA
+
+* C'est la star des matériaux, il est facile à imprimer, peu honereux et biodégradable
+* Cependant, il n'est pas très résistant à l'humidité et à la chaleur 
+
+![center w:1100](images/cm1/pla.png)
+<div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
+
+---
+
+# Les matériaux
+
+## L'ABS
+
+* L'ABS a été très populaire avant de se faire voler la vedette par le PLA.
+* Il est plus compliqué à imprimer, cependdnt il offre des propriétés mécaniques et robustesse face aux conditions climatiques bien meilleures
+
+![center w:1100](images/cm1/abs.png)
+<div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
+
+---
+
+# Les matériaux
+
+## Le PETG et l'ASA
+
+* Le PETG et l'ASA offrent tout deux un bon compromit entre le PLA et L'ABS
+* Ils sont plus simple à imprimer que l'ABS tout en offrant de bonne propriétés mécaniques
+
+![center w:1100](images/cm1/petg.png)
+<div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
+
+---
+
+# Les matériaux
+
+## Les filaments techniques
+
+* Dans cette catégories, on retrouve des matériaux aux propriétés mécaniques très interessante mais qui nécéssites des imprimantes haute-gamme pour pouvoir etre imprimé (température d'impression, filaments abrasif, *etc*)
+* Quelques exemples : filaments renforcés en carbone, nylon, polycarbonate ...
+
+![center w:1100](images/cm1/carbon.png)
+<div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
+
+---
+
+# Les matériaux
+
+## Les filaments flexibles
+
+* Il existe une variété de filaments flexibles telle que le TPU qui offrent différentes propriétés d'élasticité.
+* Une imprimante *direct drive* est généralement nécessaire pour leur impression
+
+![center w:1100](images/cm1/tpu.png)
+<div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
+
+---
+
+# Les matériaux
+
+## Les filaments solubles 
+
+* Les matériaux solubles tels que le PVA sont parfois utilisés comme support pour des impressions dans un autre matériau
+* Une imprimante multi-matériaux est nécessaire
+
+![center w:1100](images/cm1/pva.png)
+<div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
+
+---
+
+# Tableau comparatif des matériaux
+
+
+![center h:450](images/cm1/tableau_materiaux.png)
+
+<div style="text-align:center">
+
+<https://www.simplify3d.com/resources/materials-guide/properties-table/>
+
+</div>
+
+<!--
 ---
 
 # Chaine de production
@@ -346,9 +490,4 @@ Impression
 - Pince à epiler
 - Pince coupante
 
-
---- 
-
-# CAM
-
-gcode
+-->

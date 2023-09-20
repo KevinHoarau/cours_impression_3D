@@ -16,6 +16,7 @@ Kévin Hoarau - Septembre 2023
 <!-- _class: title -->
 # ***Entretien de l'imprimante***
 
+
 ---
 
 # Chargement du filament
@@ -128,3 +129,7 @@ Ebavureur
 
 # Ajouter une pause / Changer de filament en cours d'impression
 
+---
+
+Bed leveling
+Manuel vs assisté

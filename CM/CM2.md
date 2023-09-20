@@ -305,13 +305,15 @@ Deux paramètres peuvent être utilisés :
 
 ---
 
-# Eviter le stringing
+# Comment améliorer la qualité des impressions ?
 
-Ventilation de la piece
-Rétractation
+![center h:400](images/cm2/troubleshooting_guide.png)
 
-Voir troubleshooting guide
+<div style="text-align:center">
 
+<https://www.simplify3d.com/resources/print-quality-troubleshooting/>
+
+</div>
 
 ---
 

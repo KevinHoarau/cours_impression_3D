@@ -13,6 +13,8 @@ Kévin Hoarau - Septembre 2023
 
 ---
 
+<!-- header: CAO pour l'impression 3D -->
+
 # La fabrication additive
 
 <div class="columns" style="--split: 1.5fr 1fr ">
@@ -313,6 +315,10 @@ Kévin Hoarau - Septembre 2023
 
 </div>
 </div>
+
+---
+
+# Quelques mots sur Marlin firmware
 
 ---
 

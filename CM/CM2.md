@@ -21,7 +21,7 @@ Kévin Hoarau - Septembre 2023
 
 # Changement du filament
 
-Il existe générelement une option sur l'interface de l'imprimante lancer une procédure de changement de filament. Cela déclanche généralement la commande GCODE `M600`.
+Il existe généralement une option sur l'interface de l'imprimante lancer une procédure de changement de filament. Cela déclenche généralement la commande G-code `M600`.
 
 Cependant, il est parfois plus simple de faire le changement manuellement, la procédure à suivre est alors :
 1. Chauffer la tête d'impression (200° C pour le PLA)
@@ -148,8 +148,8 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 
 # Quel slicer choisir ?
 
-* Il existe un grand choix de slicer, certains sont open-source, d'autres sont propriétaire mais gratuit et certains sont payants.
-* La plupart des slicers offrents de fonctionnalités et parametrages de base similaires
+* Il existe un grand choix de slicer, certains sont open-source, d'autres sont propriétaires mais gratuit et certains sont payants.
+* La plupart des slicers offrent de fonctionnalités et paramétrages de base similaires
 * Votre choix doit donc se faire en fonction de vos critères financiers, ergonomique, fonctionnalités avancées, *etc*
 * Dans ce cours j'utiliserai UltiMaker Cura qui est open source.
 
@@ -325,49 +325,160 @@ Deux paramètres peuvent être utilisés :
  
 # Pourquoi mettre des supports
 
+<div class="columns" style="--split: 2fr 1fr ">
+<div>
+
+</br>
+
+* Il n'est pas possible d'imprimer dans le vide
+* Pour éviter cela, il faut ajouter des supports
+* Tout les slicers permettent de le faire
+* Ils peuvent être génerer automatiquement par le slicer
+* Certains slicers permettent également de placer les supports à la main
+
+
+</div>
+<div>  
+
+![center w:300](images/cm2/support_needed.png)
+<div class="image_caption" style="padding-bottom:10px">Les parties en rouges nécesite des supports</div>
+
+![center w:300](images/cm2/support_example.png)
+<div class="image_caption" style="padding-bottom:10px">Exemple avec support</div>
+
+</div>
+</div>
+
 ---
 
-# Parametres
+# Paramètres de supports
+
+<div class="columns" style="--split: 2fr 1fr ">
+<div>
+
+
+
+Quelques paramètres pour les supports :
+* Type de support : normal ou arborescent
+* Motif de support
+* Angle à partir duquel un support est nécessaire
+
+</br>
+
+![center w:250](images/cm2/support_tree.png)
+<div class="image_caption" style="padding-bottom:10px">Support arborescent</div>
+
+
+</div>
+<div>  
+
+![center w:250](images/cm2/overhang_60.png)
+<div class="image_caption" style="padding-bottom:10px">Angle à 60°</div>
+
+![center w:250](images/cm2/overhang_80.png)
+<div class="image_caption" style="padding-bottom:10px">Angle à 80°</div>
+
+</div>
 
 ---
 
 # Comment éviter les supports
 
----
+<div class="columns" style="--split: 2fr 1fr ">
+<div>
 
-# Quand mettre des supports
+* Orienter la pièce différemment
+* En connaissant l'angle maximum qu'il est possible d'imprimer avec son imprimante. Il existe des fichiers 3d pour mesurer cela.
+* En utilisant le pontage (bridging). Là aussi des fichiers 3d existe pour identifier la distance maximum qui peut être ponter.
 
-Overhang
-Pontage
 
----
+</div>
+<div>  
 
-# Support
+![center w:250](images/cm2/support_orientation.png)
+<div class="image_caption" style="padding-bottom:10px">Meilleure orientation</div>
 
-Interface
-Support arborescent 
-Placement manuel
+![center w:250](images/cm2/bridging.png)
+<div class="image_caption" style="padding-bottom:10px">Exemple de pontage</div>
 
----
-
-# Orientation
-
-Support
-Contraintes mécaniques
-Surface de contact avec le plateau
+</div>
 
 ---
 
-# Comment reduire les temps d'impression ?
+# Placement manuel
 
-Hauteur de couche
-Infill
-Nb Perimetre
+<div class="columns" style="--split: 2fr 1fr ">
+<div>
+
+* Généralement les slicers ont tendance à générer plus de support que nécessaire
+* La plupart permettent de placer des supports manuellement
+
+</br>
+
+![center w:250](images/cm2/support_manual_needed.png)
+<div class="image_caption" style="padding-bottom:10px">Pièce nécessitant des supports</div>
+
+</div>
+<div>  
+
+![center w:250](images/cm2/support_manual.png)
+<div class="image_caption" style="padding-bottom:10px">Placement manuel</div>
+
+![center w:250](images/cm2/support_manual_sliced.png)
+<div class="image_caption" style="padding-bottom:10px">Après slicing</div>
+
+</div>
+
+---
+
+# Comment orienter la pièce
+
+<div class="columns" style="--split: 2fr 1fr ">
+<div>
+
+* Evidemment on essaye d'éviter les supports.
+* Il faut prendre en compte les contraintes mécaniques (décollement des couches).
+* On maximise la surface de contact avec le plateau.
+
+![center w:250](images/cm2/contact_area.png)
+<div class="image_caption" style="padding-bottom:10px">Placement manuel</div>
+
+</div>
+<div>  
+
+![center w:250](images/cm2/orientation_bad.png)
+<div class="image_caption" style="padding-bottom:10px">Mauvaise resistance mécanique</div>
+
+![center w:250](images/cm2/orientation_good.png)
+<div class="image_caption" style="padding-bottom:10px">Bonne resistance mécanique</div>
+
+</div>
+
+---
+
+# Comment réduire les temps d'impression ?
+
+
+* Augmenter la hauteur de couche
+* Réduire le pourcentage de remplissage
+* Réduire le nombre périmètre et augmenter la vitesse des périmètres internes
+* Augmenter (raisonnablement) la vitesse d'impression
 
 ---
 
 # Comment décoller l'impression
 
+
+* Laisser refroidir le plateau.
+* Si l'impression ne se décolle pas facilement, on peut utiliser la spatule.
+
+</br>
+
+![center w:350](images/cm2/remove_print.webp)
+<div class="image_caption" style="padding-bottom:10px">Utilisation de la spatule</div>
+
+
+<!--
 
 ---
 
@@ -392,11 +503,36 @@ Ebavureur
 Bed leveling
 Manuel vs assisté
 
+-->
+
 --- 
 
-# Lancer l'impression
+# Comment lancer l'impression
 
-Via cura
-Via carte sd
-Interface web de l'imprimante
-Octoprint
+<div class="columns" style="--split: 1.5fr 1fr ">
+<div>
+
+* En exportant le fichier `.gcode`, puis en lancant l'impression depuis une carte SD
+* Via USB : la plupart des slicers permettent de se connecter en USB à l'imprimante afin de lancer l'impression.
+* Via une interface web : certaines imprimantes sont équipées d'interfaces web. Sinon, on peut installer Octoprint (généralement sur un raspberry). En connectant l'imprimante à Octoprint on peut alors gérer l'imprimante et lancer des impressions via une interface web.
+
+</div>
+<div>  
+
+</br>
+
+![center w:1000](images/cm2/octoprint.png)
+<div class="image_caption" style="padding-bottom:10px">Interface web d'Octoprint</div>
+
+</div>
+
+
+--- 
+
+# Bonus : 3 plugins Cura à avoir
+
+![center w:450](images/cm2/plugin_1.png)
+
+![center w:450](images/cm2/plugin_2.png)
+
+![center w:450](images/cm2/plugin_3.png)

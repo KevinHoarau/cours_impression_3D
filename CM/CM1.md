@@ -42,7 +42,7 @@ Kévin Hoarau - Septembre 2023
 
 <!--* 1988 : Brevetage de la technologie SLS (*Selective Laser Sintering*)-->
 * 1988 : Brevetage de la technologie FDM (*Fused Deposition Modeling*)
-* 2005 : Le projet RepRap est lancée par Adrian Bowyer (Université de Bath, Royaume-Uni)
+* 2005 : Le projet RepRap est lancé par Adrian Bowyer (Université de Bath, Royaume-Uni)
 * 2008 : La "Darwin" produit une réplication complète d'elle-même (pièces imprimables)
 * 2009 : Le brevet sur la technologie FDM expire
 
@@ -133,7 +133,7 @@ Kévin Hoarau - Septembre 2023
 
 * La structure la plus répandue est l'imprimante cartésienne
 * Le châssis est généralement formé à partir d'extrusions métalliques
-* Les axes X et Y sont actionné par un système de couroies (meilleure vitesse et acceleration)
+* Les axes X et Y sont actionné par un système de courroies (meilleure vitesse et accélération)
 * L'axe des Z est actionné par une vis sans fin (meilleur couple)
 
 
@@ -155,7 +155,7 @@ Kévin Hoarau - Septembre 2023
 
 ## Moteur pas à pas (*stepper motor*)
 
-* Les moteurs pas à pas (Nema 17), sont utilisé par déplacer les différents axes (et l'extrudeur)
+* Les moteurs pas à pas (Nema 17), sont utilisés pour déplacer les différents axes (et l'extrudeur)
 * Ce type de moteur permet de contrôler précisément leurs vitesses et positions 
 * Pour cela, seul un capteur de fin de course est nécessaire sur chaque axe pour initialiser la position $X=0;Y=0;Z=0$ (*home position*)
 
@@ -252,8 +252,8 @@ Kévin Hoarau - Septembre 2023
 
 ## Plateau chauffant (Heated Bed)
 
-* Le plateau est la surface sur laquelle la pièce va être imprimer
-* La partie chauffante permet de contrôler la température du plateau afin d'éviter le collement de la pièce durant l'impression
+* Le plateau est la surface sur laquelle la pièce va être imprimée
+* La partie chauffante permet de contrôler la température du plateau afin d'éviter le décollement de la pièce durant l'impression
 * Un support est généralement utilisé, son rôle est notamment d'améliorer d'adhérence durant l'impression et de faciliter le retrait de la pièce post-impression.
 
 
@@ -352,7 +352,7 @@ Kévin Hoarau - Septembre 2023
 
 ## Imprimantes Delta
 
-* La tête d'impression des imprimantes delta est maintenu par trois bras disposés dans une configuration triangulaire.
+* La tête d'impression des imprimantes delta est maintenue par trois bras disposés dans une configuration triangulaire.
 * Chaque bras peut être déplacé verticalement afin ainsi d'atteindre n'importe quelles positions.
 * Elles permettent d'atteindre des vitesses d'impression élevées mais offrent un volume d'impression plus réduit
 
@@ -374,7 +374,7 @@ Kévin Hoarau - Septembre 2023
 <div class="columns" style="--split: 1.5fr 1fr ">
 <div>
 
-On rencontre généralement trois approches pour réaliser des impressions multi-matériaux et/ou multicolore :
+On rencontre généralement trois approches pour réaliser des impressions multi-matériaux et/ou multicolores :
 
 * Les imprimantes équipées de plusieurs extrudeurs
 * Les systèmes de changements de matériaux automatiques
@@ -412,7 +412,7 @@ On rencontre généralement trois approches pour réaliser des impressions multi
 ## L'ABS
 
 * L'ABS a été très populaire avant de se faire voler la vedette par le PLA.
-* Il est plus compliqué à imprimer, cependdnt il offre des propriétés mécaniques et robustesse face aux conditions climatiques bien meilleures
+* Il est plus compliqué à imprimer, cependant il offre des propriétés mécaniques et une robustesse face aux conditions climatiques bien meilleures
 
 ![center w:1100](images/cm1/abs.png)
 <div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
@@ -423,8 +423,8 @@ On rencontre généralement trois approches pour réaliser des impressions multi
 
 ## Le PETG et l'ASA
 
-* Le PETG et l'ASA offrent tout deux un bon compromit entre le PLA et L'ABS
-* Ils sont plus simple à imprimer que l'ABS tout en offrant de bonne propriétés mécaniques
+* Le PETG et l'ASA offrent tous deux un bon compromit entre le PLA et L'ABS.
+* Ils sont plus simples à imprimer que l'ABS tout en offrant de bonnes propriétés mécaniques
 
 ![center w:1100](images/cm1/petg.png)
 <div class="image_caption">https://www.simplify3d.com/resources/materials-guide</div>
@@ -435,7 +435,7 @@ On rencontre généralement trois approches pour réaliser des impressions multi
 
 ## Les filaments techniques
 
-* Dans cette catégories, on retrouve des matériaux aux propriétés mécaniques très interessante mais qui nécéssites des imprimantes haute-gamme pour pouvoir etre imprimé (température d'impression, filaments abrasif, *etc*)
+* Dans cette catégorie, on retrouve des matériaux aux propriétés mécaniques très intéressantes, mais qui nécessites des imprimantes haute-gamme pour pouvoir être imprimé (température d'impression, filaments abrasifs, *etc*)
 * Quelques exemples : filaments renforcés en carbone, nylon, polycarbonate ...
 
 ![center w:1100](images/cm1/carbon.png)

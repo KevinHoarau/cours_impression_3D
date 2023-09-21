@@ -21,7 +21,7 @@ Kévin Hoarau - Septembre 2023
 
 # Changement du filament
 
-Il existe généralement une option sur l'interface de l'imprimante lancer une procédure de changement de filament. Cela déclenche généralement la commande G-code `M600`.
+Il existe généralement une option sur l'interface de l'imprimante permettant de lancer une procédure de changement de filament. Cela déclenche généralement la commande G-code `M600`.
 
 Cependant, il est parfois plus simple de faire le changement manuellement, la procédure à suivre est alors :
 1. Chauffer la tête d'impression (200° C pour le PLA)
@@ -36,9 +36,9 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 <div class="columns" style="--split: 1.8fr 1fr ">
 <div>
 
-* Le nivellement du plateau est probablement le critère le plus important pour la réussite d'une impression
-* Il doit toujours être fait à chaud, car le plateau se déforme sous l'effet de la chaleur
-* Pour la majorité des imprimantes le nivellement doit être fait à la mains en ajustant des écrous aux quatre coins du plateau
+* Le nivellement du plateau est probablement le critère le plus important pour la réussite d'une impression.
+* Il doit toujours être fait à chaud, car le plateau se déforme sous l'effet de la chaleur.
+* Pour la majorité des imprimantes le nivellement doit être fait à la main en ajustant des écrous aux quatre coins du plateau.
 * L'espace entre le plateau et la tête d'impression doit être de l'épaisseur d'une feuille de papier.
 
 </div>
@@ -83,9 +83,9 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 <div>
 
 * Il arrive souvent avec les imprimantes de type Bowden que le filament casse entre l'extrudeur et la tête d'impression
-* Cela rends alors impossible de changement du filament et détériore les impressions (pas de rétractation)
-* Pour résoudre ce problème il faut tout d'abord chauffé la tête d'impression puis dévisser le raccord pneufit afin de récupérer le filament cassé 
-* Vous pouvez utiliser un bon de filament pour pousser les morceaux hors du tube PTFE
+* Cela rend alors impossible le changement du filament et détériore les impressions (pas de rétractation)
+* Pour résoudre ce problème il faut tout d'abord chauffer la tête d'impression puis dévisser le raccord pneufit afin de récupérer le filament cassé 
+* Vous pouvez utiliser un bout de filament pour pousser les morceaux hors du tube PTFE
 
 </div>
 <div>  
@@ -105,7 +105,7 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 <div>
 
 * Ne pas laisse une imprimante sans surveillance. A minima, on utilisera une caméra IP avec la possibilité d'interrompre l'impression à distance.
-* Toujours surveiller la première couche ! S'il n'a première couche n'adhère pas bien alors vous pouvez interrompre de suite l'impression.
+* Toujours surveiller la première couche ! Si la première couche n'adhère pas bien alors vous pouvez interrompre de suite l'impression.
 * Attention avec la spatule, elle est très coupante. 
 * Evidemment ne pas toucher la buse avec les doigts. On utilise une pince à épiler pour retirer les filaments accrochés.
 
@@ -130,7 +130,7 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 # Le slicer
 
 * L'utilisation d'un *slicer* est une étape indispensable d'un processus d'impression 3D.
-* Ce logiciel à pour rôle de transformer un objet 3D, généralement au format STL, en une suite d'instructions compréhensibles par une imprimante 3D (G-code).
+* Ce logiciel a pour rôle de transformer un objet 3D, généralement au format STL, en une suite d'instructions compréhensibles par une imprimante 3D (G-code).
 * Une étape intermédiaire est le tranchage de l'objet en plusieurs couches de hauteur fixe, d'où le terme *slicer*.
 
 ![center h:230](images/cm2/poly.drawio.svg)
@@ -162,7 +162,7 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 
 * Il existe un grand nombre de paramètres qui peuvent ajuster en fonction de la pièce à imprimer
 * Les slicers modernes proposent pour la plupart des paramètres de bases pour bon nombre de modèles d'imprimantes
-* On recommande généralement, de partir des paramètres de bases proposé par le slicer et d'ajuster certains entre-eux en fonction de l'impression à produire ou du résultat obtenu sur l'impression
+* On recommande généralement, de partir des paramètres de bases proposés par le slicer et d'ajuster certains entre-eux en fonction de l'impression à produire ou du résultat obtenu sur l'impression
 
 </div>
 <div>  
@@ -188,7 +188,7 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 <div>
 
 * Ces paramètres sont à définir en fonction du matériau utilisé
-* Par exemple, pour le PLA la température de la tête d'impression devrait être configuré autout de 200°C et celui du plateau aux alentour de 60°C.
+* Par exemple, pour le PLA la température de la tête d'impression devrait être configuré autour de 200°C et celui du plateau aux alentours de 60°C.
 * On peut légèrement augmenter la température de la tête en cas de sous extrusion ou la baisser si on observe beaucoup de *stringing*
 
 </div>
@@ -281,7 +281,7 @@ Pour cela, les paramètres à modifier sont :
 
 # Adhésion au plateau
 
-Pour certaines pièces ou certains matériaux, il peut être utile d'augementer la surface de contact avec le plateau.
+Pour certaines pièces ou certains matériaux, il peut être utile d'augmenter la surface de contact avec le plateau.
 
 Deux paramètres peuvent être utilisés :
 * L'utilisation d'une bordure permet ajouter une surface d'adhérence autour de la pièce.
@@ -330,11 +330,11 @@ Deux paramètres peuvent être utilisés :
 
 </br>
 
-* Il n'est pas possible d'imprimer dans le vide
-* Pour éviter cela, il faut ajouter des supports
-* Tout les slicers permettent de le faire
-* Ils peuvent être génerer automatiquement par le slicer
-* Certains slicers permettent également de placer les supports à la main
+* Il n'est pas possible d'imprimer dans le vide.
+* Pour éviter cela, il faut ajouter des supports.
+* Tout les slicers permettent de le faire.
+* Ils peuvent être générés automatiquement par le slicer.
+* Certains slicers permettent également de placer les supports à la main.
 
 
 </div>
@@ -387,9 +387,9 @@ Quelques paramètres pour les supports :
 <div class="columns" style="--split: 2fr 1fr ">
 <div>
 
-* Orienter la pièce différemment
+* Orienter la pièce différemment.
 * En connaissant l'angle maximum qu'il est possible d'imprimer avec son imprimante. Il existe des fichiers 3d pour mesurer cela.
-* En utilisant le pontage (bridging). Là aussi des fichiers 3d existe pour identifier la distance maximum qui peut être ponter.
+* En utilisant le pontage (bridging). Là aussi des fichiers 3d existent pour identifier la distance maximum qui peut être ponté.
 
 
 </div>
@@ -461,7 +461,7 @@ Quelques paramètres pour les supports :
 
 * Augmenter la hauteur de couche
 * Réduire le pourcentage de remplissage
-* Réduire le nombre périmètre et augmenter la vitesse des périmètres internes
+* Réduire le nombre périmètres et augmenter la vitesse des périmètres internes
 * Augmenter (raisonnablement) la vitesse d'impression
 
 ---

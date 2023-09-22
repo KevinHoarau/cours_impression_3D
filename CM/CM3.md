@@ -6,7 +6,7 @@ theme: khoarau
 ---
 
 <!-- _class: title -->
-![bg left:40% 80%](images/cm4/Apache_Spark_logo.svg)
+![bg left:40% 80%](images/cm3/)
 # ***CAO pour l'impression 3D***
 ## Modélisation 3D
 Kévin Hoarau - Septembre 2023

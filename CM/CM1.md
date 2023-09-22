@@ -334,7 +334,7 @@ Kévin Hoarau - Septembre 2023
 <br>
 
 ![center w:1000](images/cm1/marlin.png)
-<div class="image_caption">Logo de Marlin firrmware</div>
+<div class="image_caption">Logo de Marlin firmware</div>
 
 </div>
 </div>

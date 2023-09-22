@@ -320,6 +320,25 @@ Kévin Hoarau - Septembre 2023
 
 # Quelques mots sur Marlin firmware
 
+<div class="columns" style="--split: 4fr 1fr ">
+<div>
+
+* Marlin est un micrologiciel (*firmware*) open source dont le développement à commencé en 2011 pour le projet RepRap.
+* Il est utilisé par la plupart des imprimantes 3D grand public.
+* Grâce à ce firmware commun, il est facile de passer d'une marque d'imprimante à une autre. De plus, les manufacturiers d'imprimantes 3D utilisant Marlin comme base pour construire leur firmware doivent le faire en open-source.
+* Une alternative à Marlin est Klipper, lancé en 2016, ce firmware permet de déporter les calculs complexes sur un ordinateur hôte et ainsi d'atteindre des vitesses d'impression et un niveau de qualité élevé.
+
+</div>
+<div>  
+
+<br>
+
+![center w:1000](images/cm1/marlin.png)
+<div class="image_caption">Logo de Marlin firrmware</div>
+
+</div>
+</div>
+
 ---
 
 # Autres imprimantes FDM

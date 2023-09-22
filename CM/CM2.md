@@ -149,9 +149,9 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 # Quel slicer choisir ?
 
 * Il existe un grand choix de slicer, certains sont open-source, d'autres sont propriétaires mais gratuit et certains sont payants.
-* La plupart des slicers offrent de fonctionnalités et paramétrages de base similaires
+* La plupart des slicers offrent des fonctionnalités et paramétrages de base similaires
 * Votre choix doit donc se faire en fonction de vos critères financiers, ergonomique, fonctionnalités avancées, *etc*
-* Dans ce cours j'utiliserai UltiMaker Cura qui est open source.
+* Dans ce cours, j'utiliserai UltiMaker Cura qui est open source.
 
 ---
 
@@ -160,9 +160,9 @@ Cependant, il est parfois plus simple de faire le changement manuellement, la pr
 <div class="columns" style="--split: 2.5fr 1fr ">
 <div>
 
-* Il existe un grand nombre de paramètres qui peuvent ajuster en fonction de la pièce à imprimer
-* Les slicers modernes proposent pour la plupart des paramètres de bases pour bon nombre de modèles d'imprimantes
-* On recommande généralement, de partir des paramètres de bases proposés par le slicer et d'ajuster certains entre-eux en fonction de l'impression à produire ou du résultat obtenu sur l'impression
+* Il existe un grand nombre de paramètres qui peuvent être ajustés en fonction de la pièce à imprimer.
+* Les slicers modernes proposent pour la plupart des paramètres de bases pour bon nombre de modèles d'imprimantes.
+* On recommande généralement, de partir des paramètres de bases proposés par le slicer et d'ajuster certains entre-eux en fonction de l'impression à produire ou du résultat obtenu sur l'impression.
 
 </div>
 <div>  

@@ -4,6 +4,10 @@
 
 @import 'default';
 
+section{
+  font-size: 28px;
+}
+
 header {
     width:95%;
     text-align:center;

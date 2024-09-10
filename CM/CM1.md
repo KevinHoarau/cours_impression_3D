@@ -9,7 +9,7 @@ theme: khoarau
 ![bg left:40% 80%](images/cm1/3dprinterold.jpg)
 # ***CAO pour l'impression 3D***
 ## Introduction à l'impression 3D
-Kévin Hoarau - Septembre 2023
+Kévin Hoarau - Septembre 2024
 
 ---
 

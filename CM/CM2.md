@@ -9,7 +9,7 @@ theme: khoarau
 ![bg left:40% 80%](images/cm2/yoda.png)
 # ***CAO pour l'impression 3D***
 ## Préparation d'une impression 3D
-Kévin Hoarau - Septembre 2023
+Kévin Hoarau - Septembre 2024
 
 ---
 
